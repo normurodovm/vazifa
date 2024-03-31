@@ -1,0 +1,32 @@
+.contact {
+    background-color: #f67e7e;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    background-image: url(../../img/contact-bgc.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom ;
+}
+
+.contact__btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #012f34;
+    padding: 9px 33px 11px 32px;
+    border: 2px solid #012f34;
+    border-radius: 24px;
+}
+
+.contact_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #012f34;
+}
+
+.contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
