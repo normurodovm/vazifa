@@ -23,6 +23,7 @@ img {
 body {
   font-family: "Livvic", sans-serif;
   background-color: #014e56;
+  margin: 0px;
 }
 
 .container {
@@ -184,6 +185,101 @@ body {
     line-height: 156%;
   }
 }
-span {
+.talent {
   color: #f67e7e;
+}
+
+.about {
+  background-color: #012F34;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #fff;
+  margin-bottom: 144px;
+  padding-right: 100px;
+}
+
+.about__sub__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #f67e7e;
+}
+
+.about__text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #CCD5D6;
+}
+
+.about__item {
+  content: "";
+  background-image: url(../img/about_img1.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center top -56px;
+  -ms-flex-negative: none;
+      flex-shrink: none;
+}
+
+.comment {
+  padding-top: 140px;
+  padding-bottom: 164px;
+}
+
+.comment_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.stories {
+  color: #79c8c7;
+}
+
+.comment__text {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.comment2__text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.comment3__text {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 138%;
+  text-align: center;
+  color: #fff;
+}
+
+.comment3__text {
+  text-align: center;
+  background-image: url(../img/comment-img1.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center bottom;
+  background-position-y: 200px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+.about {
+    background-color: #012F34;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: 144px;
+    padding-right: 100px;
+}
+.about__sub__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #f67e7e;
+}
+.about__text{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 167%;
+    text-align: center;
+    color:#CCD5D6;
+}
+.about__item{
+    content: "";
+    background-image:url(../img/about_img1.svg);
+    background-repeat:no-repeat;
+    position: absolute;
+    background-position:center top -56px;
+    flex-shrink: none;
+}
